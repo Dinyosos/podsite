@@ -1,3 +1,5 @@
+import { assetUrl } from '@/lib/utils'
+
 interface EpisodeCardProps {
   episode: {
     slug: string
@@ -29,7 +31,7 @@ export function EpisodeCard({ episode, featured = false }: EpisodeCardProps) {
         {/* Episode Cover */}
         <div className={featured ? 'md:w-1/3 md:flex-shrink-0' : ''}>
           <img
-            src={episode.coverImage}
+            src={assetUrl(episode.coverImage)}
             alt={`Cover art for ${episode.title}`}
             width={800}
             height={800}
@@ -81,7 +83,7 @@ export function EpisodeCard({ episode, featured = false }: EpisodeCardProps) {
             className="w-full"
             aria-label={`Audio player for ${episode.title}`}
           >
-            <source src={episode.audioUrl} type="audio/mpeg" />
+            <source src={assetUrl(episode.audioUrl)} type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
         </div>
