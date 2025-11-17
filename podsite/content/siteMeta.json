@@ -1,0 +1,25 @@
+{
+  "siteName": "Podsite",
+  "siteUrl": "https://<username>.github.io/podsite",
+  "description": "A sleek, modern podcast exploring creativity, storytelling, and the art of making things that matter.",
+  "socialLinks": [
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/podsite"
+    },
+    {
+      "platform": "YouTube",
+      "url": "https://youtube.com/@podsite"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com/podsite"
+    }
+  ],
+  "ogImage": "/podsite/assets/img/og-image.webp",
+  "favicon": "/podsite/favicon.ico",
+  "author": "Podsite Team",
+  "keywords": ["podcast", "creativity", "storytelling", "design", "technology"],
+  "language": "en"
+}
+

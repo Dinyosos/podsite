@@ -1,0 +1,204 @@
+[
+  {
+    "slug": "001-welcome-to-podsite",
+    "title": "Welcome to Podsite",
+    "publishDate": "2024-11-15",
+    "duration": "28:45",
+    "description": "In our inaugural episode, we introduce the podcast, share our vision, and discuss what's coming in future episodes. A warm welcome to all our listeners!",
+    "coverImage": "/podsite/assets/img/episode-001.webp",
+    "audioUrl": "/podsite/assets/audio/episode-001.mp3",
+    "tags": ["introduction", "welcome", "podcast"],
+    "featured": true
+  },
+  {
+    "slug": "002-finding-your-voice",
+    "title": "Finding Your Voice in a Noisy World",
+    "publishDate": "2024-11-08",
+    "duration": "35:12",
+    "description": "How do you stand out when everyone is creating content? We explore strategies for discovering and amplifying your unique perspective.",
+    "coverImage": "/podsite/assets/img/episode-002.webp",
+    "audioUrl": "/podsite/assets/audio/episode-002.mp3",
+    "tags": ["creativity", "personal-brand", "content"]
+  },
+  {
+    "slug": "003-the-power-of-storytelling",
+    "title": "The Power of Storytelling",
+    "publishDate": "2024-11-01",
+    "duration": "42:18",
+    "description": "Stories connect us. We dive deep into why storytelling matters and how to craft narratives that resonate with your audience.",
+    "coverImage": "/podsite/assets/img/episode-003.webp",
+    "audioUrl": "/podsite/assets/audio/episode-003.mp3",
+    "tags": ["storytelling", "narrative", "communication"]
+  },
+  {
+    "slug": "004-building-community",
+    "title": "Building Community Around Your Work",
+    "publishDate": "2024-10-25",
+    "duration": "31:55",
+    "description": "Community isn't built overnight. Learn practical steps to foster genuine connections with your audience and create lasting relationships.",
+    "coverImage": "/podsite/assets/img/episode-004.webp",
+    "audioUrl": "/podsite/assets/audio/episode-004.mp3",
+    "tags": ["community", "audience", "engagement"]
+  },
+  {
+    "slug": "005-creative-process",
+    "title": "Inside the Creative Process",
+    "publishDate": "2024-10-18",
+    "duration": "38:40",
+    "description": "What does creativity really look like? We pull back the curtain on creative workflows, inspiration, and overcoming creative blocks.",
+    "coverImage": "/podsite/assets/img/episode-005.webp",
+    "audioUrl": "/podsite/assets/audio/episode-005.mp3",
+    "tags": ["creativity", "process", "inspiration"]
+  },
+  {
+    "slug": "006-minimalism-in-design",
+    "title": "Minimalism in Design",
+    "publishDate": "2024-10-11",
+    "duration": "29:30",
+    "description": "Less is more. We discuss the principles of minimalist design and how simplicity can create powerful, memorable experiences.",
+    "coverImage": "/podsite/assets/img/episode-006.webp",
+    "audioUrl": "/podsite/assets/audio/episode-006.mp3",
+    "tags": ["design", "minimalism", "aesthetics"]
+  },
+  {
+    "slug": "007-digital-wellness",
+    "title": "Digital Wellness in a Connected World",
+    "publishDate": "2024-10-04",
+    "duration": "33:22",
+    "description": "Staying healthy while staying connected. Practical tips for maintaining balance in our always-on digital lives.",
+    "coverImage": "/podsite/assets/img/episode-007.webp",
+    "audioUrl": "/podsite/assets/audio/episode-007.mp3",
+    "tags": ["wellness", "balance", "lifestyle"]
+  },
+  {
+    "slug": "008-future-of-work",
+    "title": "The Future of Work",
+    "publishDate": "2024-09-27",
+    "duration": "40:15",
+    "description": "Remote, hybrid, or office? We explore emerging work models and what the future holds for how we collaborate and create.",
+    "coverImage": "/podsite/assets/img/episode-008.webp",
+    "audioUrl": "/podsite/assets/audio/episode-008.mp3",
+    "tags": ["work", "future", "remote"]
+  },
+  {
+    "slug": "009-learning-in-public",
+    "title": "Learning in Public",
+    "publishDate": "2024-09-20",
+    "duration": "26:48",
+    "description": "Sharing your learning journey builds credibility and connections. Why you should document and share what you're learning.",
+    "coverImage": "/podsite/assets/img/episode-009.webp",
+    "audioUrl": "/podsite/assets/audio/episode-009.mp3",
+    "tags": ["learning", "growth", "transparency"]
+  },
+  {
+    "slug": "010-authenticity-matters",
+    "title": "Why Authenticity Matters",
+    "publishDate": "2024-09-13",
+    "duration": "34:55",
+    "description": "Being genuine in a filtered world. We discuss why authenticity resonates and how to stay true to yourself.",
+    "coverImage": "/podsite/assets/img/episode-010.webp",
+    "audioUrl": "/podsite/assets/audio/episode-010.mp3",
+    "tags": ["authenticity", "values", "personal-brand"]
+  },
+  {
+    "slug": "011-productivity-myths",
+    "title": "Productivity Myths Debunked",
+    "publishDate": "2024-09-06",
+    "duration": "37:20",
+    "description": "Not all productivity advice is created equal. We bust common myths and share what actually works for getting things done.",
+    "coverImage": "/podsite/assets/img/episode-011.webp",
+    "audioUrl": "/podsite/assets/audio/episode-011.mp3",
+    "tags": ["productivity", "efficiency", "myths"]
+  },
+  {
+    "slug": "012-sustainable-creativity",
+    "title": "Sustainable Creativity",
+    "publishDate": "2024-08-30",
+    "duration": "32:10",
+    "description": "How to keep creating without burning out. Strategies for maintaining creative energy over the long haul.",
+    "coverImage": "/podsite/assets/img/episode-012.webp",
+    "audioUrl": "/podsite/assets/audio/episode-012.mp3",
+    "tags": ["creativity", "sustainability", "burnout"]
+  },
+  {
+    "slug": "013-feedback-culture",
+    "title": "Building a Feedback Culture",
+    "publishDate": "2024-08-23",
+    "duration": "30:45",
+    "description": "Feedback is a gift, but only if it's given and received well. How to create a culture where feedback drives growth.",
+    "coverImage": "/podsite/assets/img/episode-013.webp",
+    "audioUrl": "/podsite/assets/audio/episode-013.mp3",
+    "tags": ["feedback", "culture", "growth"]
+  },
+  {
+    "slug": "014-side-projects",
+    "title": "The Value of Side Projects",
+    "publishDate": "2024-08-16",
+    "duration": "36:50",
+    "description": "Side projects fuel innovation and learning. Why your next big idea might come from something you do on the side.",
+    "coverImage": "/podsite/assets/img/episode-014.webp",
+    "audioUrl": "/podsite/assets/audio/episode-014.mp3",
+    "tags": ["projects", "innovation", "learning"]
+  },
+  {
+    "slug": "015-collaboration-tools",
+    "title": "Collaboration Tools That Work",
+    "publishDate": "2024-08-09",
+    "duration": "28:35",
+    "description": "The right tools can make or break collaboration. We review our favorite tools for working together effectively.",
+    "coverImage": "/podsite/assets/img/episode-015.webp",
+    "audioUrl": "/podsite/assets/audio/episode-015.mp3",
+    "tags": ["tools", "collaboration", "productivity"]
+  },
+  {
+    "slug": "016-visual-thinking",
+    "title": "Visual Thinking",
+    "publishDate": "2024-08-02",
+    "duration": "33:18",
+    "description": "A picture is worth a thousand words. How visual thinking can clarify complex ideas and improve communication.",
+    "coverImage": "/podsite/assets/img/episode-016.webp",
+    "audioUrl": "/podsite/assets/audio/episode-016.mp3",
+    "tags": ["visual", "thinking", "communication"]
+  },
+  {
+    "slug": "017-imposter-syndrome",
+    "title": "Overcoming Imposter Syndrome",
+    "publishDate": "2024-07-26",
+    "duration": "39:12",
+    "description": "That voice saying you're not good enough? You're not alone. Strategies for recognizing and overcoming imposter syndrome.",
+    "coverImage": "/podsite/assets/img/episode-017.webp",
+    "audioUrl": "/podsite/assets/audio/episode-017.mp3",
+    "tags": ["psychology", "confidence", "growth"]
+  },
+  {
+    "slug": "018-attention-economy",
+    "title": "Navigating the Attention Economy",
+    "publishDate": "2024-07-19",
+    "duration": "35:40",
+    "description": "Everyone wants your attention. How to be intentional about where you focus in a world designed to distract.",
+    "coverImage": "/podsite/assets/img/episode-018.webp",
+    "audioUrl": "/podsite/assets/audio/episode-018.mp3",
+    "tags": ["attention", "focus", "mindfulness"]
+  },
+  {
+    "slug": "019-mentorship",
+    "title": "The Power of Mentorship",
+    "publishDate": "2024-07-12",
+    "duration": "31:25",
+    "description": "Mentors accelerate growth. How to find mentors, be a good mentee, and eventually pay it forward as a mentor yourself.",
+    "coverImage": "/podsite/assets/img/episode-019.webp",
+    "audioUrl": "/podsite/assets/audio/episode-019.mp3",
+    "tags": ["mentorship", "growth", "learning"]
+  },
+  {
+    "slug": "020-reflection-practice",
+    "title": "The Art of Reflection",
+    "publishDate": "2024-07-05",
+    "duration": "27:55",
+    "description": "Regular reflection turns experience into wisdom. Why reflection matters and simple practices to make it a habit.",
+    "coverImage": "/podsite/assets/img/episode-020.webp",
+    "audioUrl": "/podsite/assets/audio/episode-020.mp3",
+    "tags": ["reflection", "growth", "mindfulness"]
+  }
+]
+

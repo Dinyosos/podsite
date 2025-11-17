@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/episodes.schema.json",
+  "title": "Episodes",
+  "type": "array",
+  "minItems": 20,
+  "maxItems": 20,
+  "items": {
+    "type": "object",
+    "required": [
+      "title",
+      "slug",
+      "publishDate",
+      "duration",
+      "description",
+      "coverImage",
+      "audioUrl"
+    ],
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 5,
+        "maxLength": 120
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "publishDate": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "duration": {
+        "type": "string",
+        "description": "Format H:MM:SS or MM:SS",
+        "pattern": "^([0-9]{1,2}:)?[0-5][0-9]:[0-5][0-9]$"
+      },
+      "description": {
+        "type": "string",
+        "minLength": 20,
+        "maxLength": 1000
+      },
+      "coverImage": {
+        "type": "string",
+        "description": "Path under /assets/img/",
+        "pattern": "^/assets/img/.+\\.(webp|avif|png|jpg)$"
+      },
+      "audioUrl": {
+        "type": "string",
+        "description": "Path under /assets/audio/",
+        "pattern": "^/assets/audio/.+\\.(mp3|m4a)$"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 30
+        },
+        "minItems": 0,
+        "maxItems": 5
+      }
+    },
+    "additionalProperties": false
+  }
+}
+

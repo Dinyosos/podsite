@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/site-meta.schema.json",
+  "title": "SiteMeta",
+  "type": "object",
+  "required": [
+    "siteName",
+    "siteUrl",
+    "description"
+  ],
+  "properties": {
+    "siteName": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "siteUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 70,
+      "maxLength": 160
+    },
+    "socialLinks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "url"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1, "maxLength": 40 },
+          "url": { "type": "string", "format": "uri" }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 10
+    },
+    "ogImage": {
+      "type": "string",
+      "description": "Path under /assets/img/ sized ≥1200×630",
+      "pattern": "^/assets/img/.+\\.(webp|avif|png|jpg)$"
+    }
+  },
+  "additionalProperties": false
+}
+

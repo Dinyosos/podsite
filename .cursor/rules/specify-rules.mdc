@@ -1,0 +1,29 @@
+# podsite Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2025-11-14
+
+## Active Technologies
+
+- JavaScript/TypeScript (Next.js, static export) + Next.js (static export), CSS (utility or custom), no runtime data libs (001-podcast-site)
+
+## Project Structure
+
+```text
+src/
+tests/
+```
+
+## Commands
+
+npm test && npm run lint
+
+## Code Style
+
+JavaScript/TypeScript (Next.js, static export): Follow standard conventions
+
+## Recent Changes
+
+- 001-podcast-site: Added JavaScript/TypeScript (Next.js, static export) + Next.js (static export), CSS (utility or custom), no runtime data libs
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->
