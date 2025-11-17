@@ -1,10 +1,10 @@
 import Link from 'next/link'
 
 const navLinks = [
-  { href: '/podsite/', label: 'Home' },
-  { href: '/podsite/episodes/', label: 'Episodes' },
-  { href: '/podsite/about/', label: 'About' },
-  { href: '/podsite/faq/', label: 'FAQ' },
+  { href: '/', label: 'Home' },
+  { href: '/episodes/', label: 'Episodes' },
+  { href: '/about/', label: 'About' },
+  { href: '/faq/', label: 'FAQ' },
 ]
 
 export function Header() {
@@ -13,7 +13,7 @@ export function Header() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <Link href="/podsite/" className="text-xl font-bold text-gray-900 hover:text-gray-700">
+            <Link href="/" className="text-xl font-bold text-gray-900 hover:text-gray-700">
               Podsite
             </Link>
           </div>

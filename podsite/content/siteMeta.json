@@ -16,8 +16,8 @@
       "url": "https://instagram.com/podsite"
     }
   ],
-  "ogImage": "/podsite/assets/img/og-image.webp",
-  "favicon": "/podsite/favicon.ico",
+  "ogImage": "/assets/img/og-image.svg",
+  "favicon": "/favicon.ico",
   "author": "Podsite Team",
   "keywords": ["podcast", "creativity", "storytelling", "design", "technology"],
   "language": "en"

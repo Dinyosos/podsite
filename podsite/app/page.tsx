@@ -1,5 +1,6 @@
 import { getFeaturedEpisode, getSiteMeta } from '@/lib/data'
 import { EpisodeCard } from '@/components/EpisodeCard'
+import Link from 'next/link'
 import type { Metadata } from 'next'
 
 const siteMeta = getSiteMeta()
@@ -55,12 +56,12 @@ export default function Home() {
 
         {/* Call to Action */}
         <section className="text-center">
-          <a
-            href="/podsite/episodes/"
+          <Link
+            href="/episodes/"
             className="inline-block rounded-lg bg-blue-600 px-6 py-3 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 sm:text-lg"
           >
             Browse All Episodes
-          </a>
+          </Link>
         </section>
       </div>
     </main>
