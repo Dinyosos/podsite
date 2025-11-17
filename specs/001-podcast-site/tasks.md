@@ -14,34 +14,34 @@
 
 ## Phase 2 — Foundational
 
-- [ ] T010 Implement shared Header and Footer navigation (Home/Episodes/About/FAQ) in podsite/components/SiteNav.tsx
-- [ ] T011 Implement simple card and media components (EpisodeCard, AudioPlayer) in podsite/components/EpisodeCard.tsx
-- [ ] T012 Implement data loader helpers to read JSON content in podsite/lib/data.ts
-- [ ] T013 Wire up default metadata using siteMeta.json in app/layout.tsx in podsite/app/layout.tsx
-- [ ] T014 Add base responsive styles and variables (mobile-first) in podsite/styles/globals.css
-- [ ] T015 Add Open Graph/Twitter meta helper and test on one page in podsite/lib/seo.ts
+- [x] T010 Implement shared Header and Footer navigation (Home/Episodes/About/FAQ) in podsite/components/SiteNav.tsx
+- [x] T011 Implement simple card and media components (EpisodeCard, AudioPlayer) in podsite/components/EpisodeCard.tsx
+- [x] T012 Implement data loader helpers to read JSON content in podsite/lib/data.ts
+- [x] T013 Wire up default metadata using siteMeta.json in app/layout.tsx in podsite/app/layout.tsx
+- [x] T014 Add base responsive styles and variables (mobile-first) in podsite/app/globals.css
+- [x] T015 Add Open Graph/Twitter meta helper and test on one page in podsite/lib/seo.ts
 
 ## Phase 3 — User Story 1 (P1): Featured episode on landing
 
-- [ ] T016 [US1] Implement landing page section with featured episode above the fold in podsite/app/page.tsx
-- [ ] T017 [P] [US1] Add featured selection logic (first/newest item) and render fields in podsite/lib/data.ts
-- [ ] T018 [US1] Integrate native audio controls with preload='metadata' in podsite/app/page.tsx
-- [ ] T019 [US1] Add page-level SEO: unique title/description/canonical/OG tags in podsite/app/page.tsx
-- [ ] T020 [US1] Verify keyboard operability and alt text on images in podsite/app/page.tsx
+- [x] T016 [US1] Implement landing page section with featured episode above the fold in podsite/app/page.tsx
+- [x] T017 [P] [US1] Add featured selection logic (first/newest item) and render fields in podsite/lib/data.ts
+- [x] T018 [US1] Integrate native audio controls with preload='metadata' in podsite/app/page.tsx
+- [x] T019 [US1] Add page-level SEO: unique title/description/canonical/OG tags in podsite/app/page.tsx
+- [x] T020 [US1] Verify keyboard operability and alt text on images in podsite/app/page.tsx
 
 ## Phase 4 — User Story 2 (P2): Episodes list with inline play
 
-- [ ] T021 [US2] Implement episodes index route and list (20 items, newest first) in podsite/app/episodes/page.tsx
-- [ ] T022 [P] [US2] Render EpisodeCard with inline <audio> controls per item in podsite/components/EpisodeCard.tsx
-- [ ] T023 [US2] Ensure mobile layout (stacked cards, tappable controls) in podsite/app/episodes/page.tsx
-- [ ] T024 [US2] Add page-level SEO (unique title/description/canonical/OG) in podsite/app/episodes/page.tsx
+- [x] T021 [US2] Implement episodes index route and list (20 items, newest first) in podsite/app/episodes/page.tsx
+- [x] T022 [P] [US2] Render EpisodeCard with inline <audio> controls per item in podsite/components/EpisodeCard.tsx
+- [x] T023 [US2] Ensure mobile layout (stacked cards, tappable controls) in podsite/app/episodes/page.tsx
+- [x] T024 [US2] Add page-level SEO (unique title/description/canonical/OG) in podsite/app/episodes/page.tsx
 
 ## Phase 5 — User Story 3 (P3): About and FAQ pages
 
-- [ ] T025 [US3] Implement About page (~200+ words, scannable headings) in podsite/app/about/page.tsx
-- [ ] T026 [US3] Implement FAQ page (≥8 Q&A items with headings) in podsite/app/faq/page.tsx
-- [ ] T027 [P] [US3] Add page-level SEO for About and FAQ pages in podsite/app/about/page.tsx
-- [ ] T028 [P] [US3] Add page-level SEO for FAQ page in podsite/app/faq/page.tsx
+- [x] T025 [US3] Implement About page (~200+ words, scannable headings) in podsite/app/about/page.tsx
+- [x] T026 [US3] Implement FAQ page (≥8 Q&A items with headings) in podsite/app/faq/page.tsx
+- [x] T027 [P] [US3] Add page-level SEO for About and FAQ pages in podsite/app/about/page.tsx
+- [x] T028 [P] [US3] Add page-level SEO for FAQ page in podsite/app/faq/page.tsx
 
 ## Phase 6 — Polish & Cross-Cutting
 
