@@ -102,7 +102,7 @@ export default function FAQPage() {
             Still have questions?
           </h2>
           <p className="mb-6 text-gray-700">
-            Can't find what you're looking for? We're here to help.
+            Can&apos;t find what you&apos;re looking for? We&apos;re here to help.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             {siteMeta.socialLinks.map((link) => (

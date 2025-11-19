@@ -44,7 +44,7 @@ export default function AboutPage() {
             </p>
             <p className="text-gray-700">
               We explore the intersection of creativity, technology, and human experience through in-depth 
-              conversations with makers, thinkers, and innovators who are shaping our world. Whether you're 
+              conversations with makers, thinkers, and innovators who are shaping our world. Whether you&apos;re 
               a creator seeking inspiration, a professional looking for fresh perspectives, or simply someone 
               who loves great stories, Podsite is your companion on the journey of discovery.
             </p>
@@ -94,7 +94,7 @@ export default function AboutPage() {
             <h2 className="mb-4 text-2xl font-semibold text-gray-900">Get Involved</h2>
             <p className="mb-4 text-gray-700">
               We love hearing from our listeners! Whether you have feedback, guest suggestions, or just 
-              want to say hello, we're always open to connecting with our community.
+              want to say hello, we&apos;re always open to connecting with our community.
             </p>
             <div className="flex flex-wrap gap-4">
               {siteMeta.socialLinks.map((link) => (
