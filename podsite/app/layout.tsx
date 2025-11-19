@@ -59,6 +59,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang={siteMeta.language}>
+      <head>
+        <link rel="icon" href="/podsite/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/podsite/apple-touch-icon.svg" />
+      </head>
       <body className="flex min-h-screen flex-col">
         <Header />
         <main className="flex-1">{children}</main>
