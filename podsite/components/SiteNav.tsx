@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { useState } from 'react'
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -8,10 +11,13 @@ const navLinks = [
 ]
 
 export function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
   return (
     <header className="border-b border-gray-200 bg-white">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex h-16 items-center justify-between">
+          {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-2 text-xl font-bold text-gray-900 hover:text-gray-700">
               <img 
@@ -24,7 +30,9 @@ export function Header() {
               <span>Podsite</span>
             </Link>
           </div>
-          <div className="flex items-center space-x-1 sm:space-x-4">
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex md:items-center md:space-x-1 lg:space-x-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -35,7 +43,48 @@ export function Header() {
               </Link>
             ))}
           </div>
+
+          {/* Mobile Hamburger Button */}
+          <div className="flex md:hidden">
+            <button
+              type="button"
+              className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+              aria-controls="mobile-menu"
+              aria-expanded={mobileMenuOpen}
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              <span className="sr-only">Open main menu</span>
+              {/* Hamburger Icon */}
+              {!mobileMenuOpen ? (
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+              ) : (
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              )}
+            </button>
+          </div>
         </div>
+
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden" id="mobile-menu">
+            <div className="space-y-1 pb-3 pt-2">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </nav>
     </header>
   )
