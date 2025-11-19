@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
   <defs>
-    <linearGradient id="appleGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+    <linearGradient id="appleWaveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
-      <stop offset="30%" style="stop-color:#fb923c;stop-opacity:1" />
-      <stop offset="60%" style="stop-color:#f472b6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f472b6;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
     </linearGradient>
   </defs>
@@ -11,12 +10,9 @@
   <!-- Background -->
   <rect width="180" height="180" fill="#ffffff"/>
   
-  <!-- Microphone capsule (rounded rectangle) -->
-  <rect x="62" y="35" width="56" height="84" rx="28" fill="url(#appleGrad)"/>
-  
-  <!-- Microphone stand -->
-  <rect x="84" y="119" width="12" height="35" fill="#a78bfa"/>
-  
-  <!-- Microphone base -->
-  <rect x="62" y="147" width="56" height="12" rx="6" fill="#a78bfa"/>
+  <!-- 4 bars - scaled for 180x180 -->
+  <rect x="40" y="68" width="16" height="44" rx="8" fill="url(#appleWaveGrad)"/>
+  <rect x="72" y="45" width="16" height="90" rx="8" fill="url(#appleWaveGrad)"/>
+  <rect x="104" y="28" width="16" height="124" rx="8" fill="url(#appleWaveGrad)"/>
+  <rect x="136" y="56" width="16" height="68" rx="8" fill="url(#appleWaveGrad)"/>
 </svg>

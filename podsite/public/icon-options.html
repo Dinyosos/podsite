@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icon Options Gallery</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      padding: 40px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2.5em;
+    }
+    .subtitle {
+      text-align: center;
+      opacity: 0.9;
+      margin-bottom: 40px;
+      font-size: 1.1em;
+    }
+    .options-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      margin-bottom: 40px;
+    }
+    .option-card {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .option-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    }
+    .option-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .option-header h2 {
+      color: #1e293b;
+      font-size: 1.3em;
+      margin-bottom: 5px;
+    }
+    .option-header p {
+      color: #64748b;
+      font-size: 0.9em;
+    }
+    .icon-showcase {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 200px;
+      margin: 20px 0;
+    }
+    .size-preview {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      margin: 20px 0;
+      padding: 15px;
+      background: #f8fafc;
+      border-radius: 12px;
+    }
+    .features {
+      color: #475569;
+      font-size: 0.9em;
+      line-height: 1.6;
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px solid #e2e8f0;
+    }
+    .features li {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 创意 Icon 方案集</h1>
+    <p class="subtitle">5 个全新设计方案 · 现代 · 独特 · 专业</p>
+    
+    <div class="options-grid">
+      <!-- Option A -->
+      <div class="option-card">
+        <div class="option-header">
+          <h2>方案 A：音频波形</h2>
+          <p>动态声波，充满活力</p>
+        </div>
+        <div class="icon-showcase">
+          <svg viewBox="0 0 128 128" width="120" height="120">
+            <defs>
+              <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#fbbf24"/>
+                <stop offset="50%" style="stop-color:#f472b6"/>
+                <stop offset="100%" style="stop-color:#a78bfa"/>
+              </linearGradient>
+            </defs>
+            <rect x="20" y="50" width="8" height="28" rx="4" fill="url(#waveGrad)"/>
+            <rect x="36" y="38" width="8" height="52" rx="4" fill="url(#waveGrad)"/>
+            <rect x="52" y="28" width="8" height="72" rx="4" fill="url(#waveGrad)"/>
+            <rect x="68" y="20" width="8" height="88" rx="4" fill="url(#waveGrad)"/>
+            <rect x="84" y="28" width="8" height="72" rx="4" fill="url(#waveGrad)"/>
+            <rect x="100" y="38" width="8" height="52" rx="4" fill="url(#waveGrad)"/>
+          </svg>
+        </div>
+        <div class="size-preview">
+          <svg viewBox="0 0 128 128" width="24" height="24">
+            <rect x="20" y="50" width="8" height="28" rx="4" fill="#f472b6"/>
+            <rect x="36" y="38" width="8" height="52" rx="4" fill="#f472b6"/>
+            <rect x="52" y="28" width="8" height="72" rx="4" fill="#f472b6"/>
+            <rect x="68" y="20" width="8" height="88" rx="4" fill="#f472b6"/>
+            <rect x="84" y="28" width="8" height="72" rx="4" fill="#f472b6"/>
+            <rect x="100" y="38" width="8" height="52" rx="4" fill="#f472b6"/>
+          </svg>
+          <svg viewBox="0 0 128 128" width="32" height="32">
+            <rect x="20" y="50" width="8" height="28" rx="4" fill="#f472b6"/>
+            <rect x="36" y="38" width="8" height="52" rx="4" fill="#f472b6"/>
+            <rect x="52" y="28" width="8" height="72" rx="4" fill="#f472b6"/>
+            <rect x="68" y="20" width="8" height="88" rx="4" fill="#f472b6"/>
+            <rect x="84" y="28" width="8" height="72" rx="4" fill="#f472b6"/>
+            <rect x="100" y="38" width="8" height="52" rx="4" fill="#f472b6"/>
+          </svg>
+          <svg viewBox="0 0 128 128" width="48" height="48">
+            <rect x="20" y="50" width="8" height="28" rx="4" fill="#f472b6"/>
+            <rect x="36" y="38" width="8" height="52" rx="4" fill="#f472b6"/>
+            <rect x="52" y="28" width="8" height="72" rx="4" fill="#f472b6"/>
+            <rect x="68" y="20" width="8" height="88" rx="4" fill="#f472b6"/>
+            <rect x="84" y="28" width="8" height="72" rx="4" fill="#f472b6"/>
+            <rect x="100" y="38" width="8" height="52" rx="4" fill="#f472b6"/>
+          </svg>
+        </div>
+        <ul class="features">
+          <li>🎵 经典音频波形设计</li>
+          <li>🌈 黄→粉→紫渐变</li>
+          <li>✨ 动感十足，识别度高</li>
+          <li>🎯 直观表达音频/播客</li>
+        </ul>
+      </div>
+
+      <!-- Option B -->
+      <div class="option-card">
+        <div class="option-header">
+          <h2>方案 B：字母 P 图形</h2>
+          <p>品牌首字母，简约现代</p>
+        </div>
+        <div class="icon-showcase">
+          <svg viewBox="0 0 128 128" width="120" height="120">
+            <defs>
+              <linearGradient id="pGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#fbbf24"/>
+                <stop offset="50%" style="stop-color:#f472b6"/>
+                <stop offset="100%" style="stop-color:#a78bfa"/>
+              </linearGradient>
+            </defs>
+            <path d="M 40 25 L 40 103 L 52 103 L 52 70 L 75 70 C 90 70 98 62 98 47.5 C 98 33 90 25 75 25 Z M 52 36 L 73 36 C 81 36 86 39 86 47.5 C 86 56 81 59 73 59 L 52 59 Z" fill="url(#pGrad)"/>
+          </svg>
+        </div>
+        <div class="size-preview">
+          <svg viewBox="0 0 128 128" width="24" height="24">
+            <path d="M 40 25 L 40 103 L 52 103 L 52 70 L 75 70 C 90 70 98 62 98 47.5 C 98 33 90 25 75 25 Z M 52 36 L 73 36 C 81 36 86 39 86 47.5 C 86 56 81 59 73 59 L 52 59 Z" fill="#f472b6"/>
+          </svg>
+          <svg viewBox="0 0 128 128" width="32" height="32">
+            <path d="M 40 25 L 40 103 L 52 103 L 52 70 L 75 70 C 90 70 98 62 98 47.5 C 98 33 90 25 75 25 Z M 52 36 L 73 36 C 81 36 86 39 86 47.5 C 86 56 81 59 73 59 L 52 59 Z" fill="#f472b6"/>
+          </svg>
+          <svg viewBox="0 0 128 128" width="48" height="48">
+            <path d="M 40 25 L 40 103 L 52 103 L 52 70 L 75 70 C 90 70 98 62 98 47.5 C 98 33 90 25 75 25 Z M 52 36 L 73 36 C 81 36 86 39 86 47.5 C 86 56 81 59 73 59 L 52 59 Z" fill="#f472b6"/>
+          </svg>
+        </div>
+        <ul class="features">
+          <li>🅿️ Podsite 首字母 P</li>
+          <li>💎 几何现代字体设计</li>
+          <li>✨ 品牌识别度强</li>
+          <li>🎨 渐变配色时尚</li>
+        </ul>
+      </div>
+
+      <!-- Option C -->
+      <div class="option-card">
+        <div class="option-header">
+          <h2>方案 C：脉冲圆点</h2>
+          <p>简约脉动，充满能量</p>
+        </div>
+        <div class="icon-showcase">
+          <svg viewBox="0 0 128 128" width="120" height="120">
+            <defs>
+              <linearGradient id="pulseGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+                <stop offset="0%" style="stop-color:#fbbf24"/>
+                <stop offset="50%" style="stop-color:#f472b6"/>
+                <stop offset="100%" style="stop-color:#a78bfa"/>
+              </linearGradient>
+            </defs>
+            <circle cx="64" cy="64" r="20" fill="url(#pulseGrad)"/>
+            <circle cx="64" cy="64" r="35" fill="none" stroke="url(#pulseGrad)" stroke-width="4" opacity="0.6"/>
+            <circle cx="64" cy="64" r="50" fill="none" stroke="url(#pulseGrad)" stroke-width="3" opacity="0.3"/>
+          </svg>
+        </div>
+        <div class="size-preview">
+          <svg viewBox="0 0 128 128" width="24" height="24">
+            <circle cx="64" cy="64" r="20" fill="#f472b6"/>
+            <circle cx="64" cy="64" r="35" fill="none" stroke="#f472b6" stroke-width="4" opacity="0.5"/>
+          </svg>
+          <svg viewBox="0 0 128 128" width="32" height="32">
+            <circle cx="64" cy="64" r="20" fill="#f472b6"/>
+            <circle cx="64" cy="64" r="35" fill="none" stroke="#f472b6" stroke-width="4" opacity="0.5"/>
+          </svg>
+          <svg viewBox="0 0 128 128" width="48" height="48">
+            <circle cx="64" cy="64" r="20" fill="#f472b6"/>
+            <circle cx="64" cy="64" r="35" fill="none" stroke="#f472b6" stroke-width="4" opacity="0.5"/>
+            <circle cx="64" cy="64" r="50" fill="none" stroke="#f472b6" stroke-width="3" opacity="0.3"/>
+          </svg>
+        </div>
+        <ul class="features">
+          <li>⚡ 脉动信号感</li>
+          <li>🎯 实心圆 + 扩散环</li>
+          <li>✨ 象征声音传播</li>
+          <li>💫 动感现代</li>
+        </ul>
+      </div>
+
+      <!-- Option D -->
+      <div class="option-card">
+        <div class="option-header">
+          <h2>方案 D：立体方块</h2>
+          <p>3D 视觉，科技感强</p>
+        </div>
+        <div class="icon-showcase">
+          <svg viewBox="0 0 128 128" width="120" height="120">
+            <defs>
+              <linearGradient id="cube1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#fbbf24"/>
+                <stop offset="100%" style="stop-color:#fb923c"/>
+              </linearGradient>
+              <linearGradient id="cube2" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#fb923c"/>
+                <stop offset="100%" style="stop-color:#f472b6"/>
+              </linearGradient>
+              <linearGradient id="cube3" x1="100%" y1="0%" x2="0%" y2="0%">
+                <stop offset="0%" style="stop-color:#f472b6"/>
+                <stop offset="100%" style="stop-color:#a78bfa"/>
+              </linearGradient>
+            </defs>
+            <!-- Top face -->
+            <path d="M 64 25 L 95 42 L 64 59 L 33 42 Z" fill="url(#cube1)"/>
+            <!-- Left face -->
+            <path d="M 33 42 L 33 76 L 64 93 L 64 59 Z" fill="url(#cube2)"/>
+            <!-- Right face -->
+            <path d="M 64 59 L 64 93 L 95 76 L 95 42 Z" fill="url(#cube3)"/>
+          </svg>
+        </div>
+        <div class="size-preview">
+          <svg viewBox="0 0 128 128" width="24" height="24">
+            <path d="M 64 25 L 95 42 L 64 59 L 33 42 Z" fill="#fbbf24"/>
+            <path d="M 33 42 L 33 76 L 64 93 L 64 59 Z" fill="#f472b6"/>
+            <path d="M 64 59 L 64 93 L 95 76 L 95 42 Z" fill="#a78bfa"/>
+          </svg>
+          <svg viewBox="0 0 128 128" width="32" height="32">
+            <path d="M 64 25 L 95 42 L 64 59 L 33 42 Z" fill="#fbbf24"/>
+            <path d="M 33 42 L 33 76 L 64 93 L 64 59 Z" fill="#f472b6"/>
+            <path d="M 64 59 L 64 93 L 95 76 L 95 42 Z" fill="#a78bfa"/>
+          </svg>
+          <svg viewBox="0 0 128 128" width="48" height="48">
+            <path d="M 64 25 L 95 42 L 64 59 L 33 42 Z" fill="#fbbf24"/>
+            <path d="M 33 42 L 33 76 L 64 93 L 64 59 Z" fill="#f472b6"/>
+            <path d="M 64 59 L 64 93 L 95 76 L 95 42 Z" fill="#a78bfa"/>
+          </svg>
+        </div>
+        <ul class="features">
+          <li>🎲 等距立体方块</li>
+          <li>🌈 三面渐变配色</li>
+          <li>✨ 科技感、创新感</li>
+          <li>💎 独特视觉冲击</li>
+        </ul>
+      </div>
+
+      <!-- Option E -->
+      <div class="option-card">
+        <div class="option-header">
+          <h2>方案 E：极简耳机</h2>
+          <p>线条勾勒，优雅简洁</p>
+        </div>
+        <div class="icon-showcase">
+          <svg viewBox="0 0 128 128" width="120" height="120">
+            <defs>
+              <linearGradient id="headphoneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#fbbf24"/>
+                <stop offset="50%" style="stop-color:#f472b6"/>
+                <stop offset="100%" style="stop-color:#a78bfa"/>
+              </linearGradient>
+            </defs>
+            <!-- Headband -->
+            <path d="M 35 64 Q 35 35 64 35 Q 93 35 93 64" fill="none" stroke="url(#headphoneGrad)" stroke-width="8" stroke-linecap="round"/>
+            <!-- Left earpiece -->
+            <rect x="28" y="64" width="14" height="24" rx="7" fill="url(#headphoneGrad)"/>
+            <!-- Right earpiece -->
+            <rect x="86" y="64" width="14" height="24" rx="7" fill="url(#headphoneGrad)"/>
+          </svg>
+        </div>
+        <div class="size-preview">
+          <svg viewBox="0 0 128 128" width="24" height="24">
+            <path d="M 35 64 Q 35 35 64 35 Q 93 35 93 64" fill="none" stroke="#f472b6" stroke-width="8" stroke-linecap="round"/>
+            <rect x="28" y="64" width="14" height="24" rx="7" fill="#f472b6"/>
+            <rect x="86" y="64" width="14" height="24" rx="7" fill="#f472b6"/>
+          </svg>
+          <svg viewBox="0 0 128 128" width="32" height="32">
+            <path d="M 35 64 Q 35 35 64 35 Q 93 35 93 64" fill="none" stroke="#f472b6" stroke-width="8" stroke-linecap="round"/>
+            <rect x="28" y="64" width="14" height="24" rx="7" fill="#f472b6"/>
+            <rect x="86" y="64" width="14" height="24" rx="7" fill="#f472b6"/>
+          </svg>
+          <svg viewBox="0 0 128 128" width="48" height="48">
+            <path d="M 35 64 Q 35 35 64 35 Q 93 35 93 64" fill="none" stroke="#f472b6" stroke-width="8" stroke-linecap="round"/>
+            <rect x="28" y="64" width="14" height="24" rx="7" fill="#f472b6"/>
+            <rect x="86" y="64" width="14" height="24" rx="7" fill="#f472b6"/>
+          </svg>
+        </div>
+        <ul class="features">
+          <li>🎧 线条耳机设计</li>
+          <li>✨ 优雅简约</li>
+          <li>🎵 直观表达音频</li>
+          <li>💫 易于识别记忆</li>
+        </ul>
+      </div>
+
+      <!-- Option F -->
+      <div class="option-card">
+        <div class="option-header">
+          <h2>方案 F：声波圈环</h2>
+          <p>不完整圆环，动感流畅</p>
+        </div>
+        <div class="icon-showcase">
+          <svg viewBox="0 0 128 128" width="120" height="120">
+            <defs>
+              <linearGradient id="ringGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#fbbf24"/>
+                <stop offset="100%" style="stop-color:#fb923c"/>
+              </linearGradient>
+              <linearGradient id="ringGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#f472b6"/>
+                <stop offset="100%" style="stop-color:#a78bfa"/>
+              </linearGradient>
+            </defs>
+            <path d="M 64 24 A 40 40 0 1 1 24 64" fill="none" stroke="url(#ringGrad1)" stroke-width="12" stroke-linecap="round"/>
+            <path d="M 64 104 A 40 40 0 1 1 104 64" fill="none" stroke="url(#ringGrad2)" stroke-width="12" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="size-preview">
+          <svg viewBox="0 0 128 128" width="24" height="24">
+            <path d="M 64 24 A 40 40 0 1 1 24 64" fill="none" stroke="#fb923c" stroke-width="12" stroke-linecap="round"/>
+            <path d="M 64 104 A 40 40 0 1 1 104 64" fill="none" stroke="#a78bfa" stroke-width="12" stroke-linecap="round"/>
+          </svg>
+          <svg viewBox="0 0 128 128" width="32" height="32">
+            <path d="M 64 24 A 40 40 0 1 1 24 64" fill="none" stroke="#fb923c" stroke-width="12" stroke-linecap="round"/>
+            <path d="M 64 104 A 40 40 0 1 1 104 64" fill="none" stroke="#a78bfa" stroke-width="12" stroke-linecap="round"/>
+          </svg>
+          <svg viewBox="0 0 128 128" width="48" height="48">
+            <path d="M 64 24 A 40 40 0 1 1 24 64" fill="none" stroke="#fb923c" stroke-width="12" stroke-linecap="round"/>
+            <path d="M 64 104 A 40 40 0 1 1 104 64" fill="none" stroke="#a78bfa" stroke-width="12" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <ul class="features">
+          <li>🌀 流动的声波圈环</li>
+          <li>🎨 双色弧线对称</li>
+          <li>✨ 动感流畅</li>
+          <li>💫 独特现代</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="background: white; border-radius: 20px; padding: 30px; text-align: center; color: #1e293b;">
+      <h2 style="margin-bottom: 15px;">💡 如何选择？</h2>
+      <p style="color: #64748b; line-height: 1.8;">
+        请告诉我您最喜欢的方案（A-F），或者描述您想要的风格，<br>
+        我可以基于您喜欢的方向进一步优化和调整！
+      </p>
+    </div>
+  </div>
+</body>
+</html>
+

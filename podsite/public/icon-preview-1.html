@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icon Preview - Option 1</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      padding: 40px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      max-width: 1200px;
+      width: 100%;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.5em;
+    }
+    .preview-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    .preview-card {
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+    .preview-card h3 {
+      color: #1e293b;
+      margin-bottom: 20px;
+      font-size: 1.1em;
+    }
+    .icon-display {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .size-label {
+      color: #64748b;
+      font-size: 0.9em;
+      margin-top: 10px;
+    }
+    .context-preview {
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      margin-top: 30px;
+    }
+    .context-preview h2 {
+      color: #1e293b;
+      margin-bottom: 20px;
+    }
+    .nav-demo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px;
+      background: #f8fafc;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .nav-demo img {
+      width: 32px;
+      height: 32px;
+    }
+    .nav-demo span {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #1e293b;
+    }
+    .browser-tab-demo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 20px;
+      background: #f1f5f9;
+      border-radius: 8px 8px 0 0;
+      max-width: 300px;
+    }
+    .browser-tab-demo img {
+      width: 16px;
+      height: 16px;
+    }
+    .browser-tab-demo span {
+      color: #475569;
+      font-size: 0.9em;
+    }
+    .backgrounds {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .bg-test {
+      padding: 30px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .bg-white { background: white; }
+    .bg-gray { background: #64748b; }
+    .bg-dark { background: #1e293b; }
+    .comparison {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .comparison-item {
+      background: #f8fafc;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .comparison-item h4 {
+      color: #1e293b;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>⭕ 方案 1：紫色同心圆</h1>
+    
+    <div class="preview-grid">
+      <div class="preview-card">
+        <h3>16×16 (Browser Tab)</h3>
+        <div class="icon-display">
+          <img src="/podsite/favicon-preview-1.svg" width="16" height="16" alt="16x16">
+        </div>
+        <p class="size-label">标签页图标</p>
+      </div>
+      
+      <div class="preview-card">
+        <h3>32×32 (Navigation)</h3>
+        <div class="icon-display">
+          <img src="/podsite/favicon-preview-1.svg" width="32" height="32" alt="32x32">
+        </div>
+        <p class="size-label">导航栏</p>
+      </div>
+      
+      <div class="preview-card">
+        <h3>64×64 (Standard)</h3>
+        <div class="icon-display">
+          <img src="/podsite/favicon-preview-1.svg" width="64" height="64" alt="64x64">
+        </div>
+        <p class="size-label">标准尺寸</p>
+      </div>
+      
+      <div class="preview-card">
+        <h3>128×128 (Large)</h3>
+        <div class="icon-display">
+          <img src="/podsite/favicon-preview-1.svg" width="128" height="128" alt="128x128">
+        </div>
+        <p class="size-label">大尺寸</p>
+      </div>
+    </div>
+
+    <div class="context-preview">
+      <h2>📱 实际应用场景</h2>
+      
+      <h3 style="color: #475569; font-size: 1em; margin: 20px 0 10px;">导航栏效果：</h3>
+      <div class="nav-demo">
+        <img src="/podsite/favicon-preview-1.svg" alt="Logo">
+        <span>Podsite</span>
+        <div style="margin-left: auto; display: flex; gap: 20px; color: #64748b; font-size: 0.9em;">
+          <span>Home</span>
+          <span>Episodes</span>
+          <span>About</span>
+        </div>
+      </div>
+
+      <h3 style="color: #475569; font-size: 1em; margin: 20px 0 10px;">浏览器标签页效果：</h3>
+      <div class="browser-tab-demo">
+        <img src="/podsite/favicon-preview-1.svg" alt="Favicon">
+        <span>Podsite | Home</span>
+      </div>
+
+      <h3 style="color: #475569; font-size: 1em; margin: 20px 0 10px;">不同背景下的效果：</h3>
+      <div class="backgrounds">
+        <div class="bg-test bg-white">
+          <img src="/podsite/favicon-preview-1.svg" width="64" height="64" alt="White bg">
+        </div>
+        <div class="bg-test bg-gray">
+          <img src="/podsite/favicon-preview-1.svg" width="64" height="64" alt="Gray bg">
+        </div>
+        <div class="bg-test bg-dark">
+          <img src="/podsite/favicon-preview-1.svg" width="64" height="64" alt="Dark bg">
+        </div>
+      </div>
+    </div>
+
+    <div class="context-preview" style="margin-top: 20px;">
+      <h2>🎨 设计特点</h2>
+      <ul style="color: #475569; line-height: 1.8;">
+        <li><strong>4 层同心圆：</strong>从外到内逐渐变深</li>
+        <li><strong>外圈：</strong>浅紫色 (#a78bfa)，30% 透明度</li>
+        <li><strong>第三层：</strong>中浅紫 (#8b5cf6)，50% 透明度</li>
+        <li><strong>第二层：</strong>中深紫 (#7c3aed)，70% 透明度</li>
+        <li><strong>中心：</strong>深紫色 (#6d28d9)，100% 不透明</li>
+        <li><strong>象征：</strong>声波传播、音频扩散、广播信号</li>
+        <li><strong>特点：</strong>极简、优雅、现代、平静</li>
+      </ul>
+    </div>
+
+    <div class="context-preview" style="margin-top: 20px;">
+      <h2>⚖️ 方案 1 vs 方案 3 对比</h2>
+      <div class="comparison">
+        <div class="comparison-item">
+          <h4>方案 1 - 紫色同心圆</h4>
+          <img src="/podsite/favicon-preview-1.svg" width="80" height="80" alt="Option 1">
+          <p style="color: #64748b; margin-top: 15px; font-size: 0.9em;">
+            ✨ 更柔和、平静<br>
+            🌊 声波/扩散感<br>
+            💜 单色系优雅<br>
+            🎯 更抽象、艺术
+          </p>
+        </div>
+        <div class="comparison-item">
+          <h4>方案 3 - 播放按钮</h4>
+          <img src="/podsite/favicon-preview-3.svg" width="80" height="80" alt="Option 3">
+          <p style="color: #64748b; margin-top: 15px; font-size: 0.9em;">
+            🎨 更鲜艳、活力<br>
+            🎵 播放器按钮感<br>
+            🌈 多彩渐变<br>
+            🎯 更具体、直观
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
