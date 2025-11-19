@@ -40,7 +40,7 @@ export default function EpisodesPage() {
         </header>
 
         {/* Episodes List */}
-        <div className="space-y-6">
+        <div className="space-y-8">
           {episodes.length > 0 ? (
             episodes.map((episode) => (
               <EpisodeCard key={episode.slug} episode={episode} featured={false} />
