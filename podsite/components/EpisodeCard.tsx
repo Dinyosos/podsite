@@ -22,7 +22,7 @@ export function EpisodeCard({ episode, featured = false }: EpisodeCardProps) {
   })
 
   const cardClass = featured
-    ? 'bg-white rounded-lg shadow-lg overflow-hidden'
+    ? 'bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow'
     : 'bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow'
 
   return (
