@@ -45,8 +45,8 @@
 
 ## Phase 6 — Polish & Cross-Cutting
 
-- [ ] T029 Add favicon and basic theming color meta in podsite/public/favicon.ico
-- [ ] T030 Finalize sitemap.xml and robots.txt contents in podsite/public/sitemap.xml
+- [x] T029 Add favicon and basic theming color meta in podsite/public/favicon.ico
+- [x] T030 Finalize sitemap.xml and robots.txt contents in podsite/public/sitemap.xml
 - [ ] T031 Lighthouse mobile audits (Perf/Accessibility/SEO) and remediate in podsite/
 - [ ] T032 Validate Core Web Vitals targets (LCP/CLS/INP) and image sizes in podsite/public/assets/img/
 - [ ] T033 Check accessibility (labels, contrast, focus, headings) and fix in podsite/
