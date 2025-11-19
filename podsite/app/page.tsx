@@ -36,7 +36,7 @@ export default function Home() {
             Welcome to Podsite
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-gray-600 sm:text-xl">
-            Exploring creativity, storytelling, and the art of making things that matter.
+            We talk about creativity, stories, and the things that make life meaningful. Every episode is a journey of ideas—join us in exploring the joy of creation.
           </p>
         </section>
 

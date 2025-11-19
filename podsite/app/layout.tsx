@@ -44,7 +44,11 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: siteMeta.favicon,
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
+    ],
+    apple: '/apple-touch-icon.svg',
   },
 }
 
