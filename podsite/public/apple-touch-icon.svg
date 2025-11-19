@@ -1,28 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
   <defs>
-    <linearGradient id="appleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#ff9a56;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#ff5e98;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    <linearGradient id="appleGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#fb923c;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#f472b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
     </linearGradient>
   </defs>
   
   <!-- Background -->
-  <rect width="180" height="180" fill="white"/>
+  <rect width="180" height="180" fill="#ffffff"/>
   
-  <!-- Microphone body -->
-  <rect x="65" y="35" width="50" height="70" rx="25" fill="url(#appleGrad)"/>
+  <!-- Microphone capsule (rounded rectangle) -->
+  <rect x="62" y="35" width="56" height="84" rx="28" fill="url(#appleGrad)"/>
   
   <!-- Microphone stand -->
-  <rect x="82" y="105" width="16" height="35" fill="url(#appleGrad)"/>
-  <rect x="63" y="133" width="54" height="12" rx="6" fill="url(#appleGrad)"/>
+  <rect x="84" y="119" width="12" height="35" fill="#a78bfa"/>
   
-  <!-- Sound waves - left -->
-  <path d="M 42 52 Q 32 70 42 88" stroke="url(#appleGrad)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M 28 47 Q 15 70 28 93" stroke="url(#appleGrad)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.4"/>
-  
-  <!-- Sound waves - right -->
-  <path d="M 138 52 Q 148 70 138 88" stroke="url(#appleGrad)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M 152 47 Q 165 70 152 93" stroke="url(#appleGrad)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <!-- Microphone base -->
+  <rect x="62" y="147" width="56" height="12" rx="6" fill="#a78bfa"/>
 </svg>
-
