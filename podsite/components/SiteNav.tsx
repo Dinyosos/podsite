@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -13,8 +14,15 @@ export function Header() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <Link href="/" className="text-xl font-bold text-gray-900 hover:text-gray-700">
-              Podsite
+            <Link href="/" className="flex items-center gap-2 text-xl font-bold text-gray-900 hover:text-gray-700">
+              <img 
+                src="/podsite/favicon.svg" 
+                alt="Podsite Logo" 
+                width="32" 
+                height="32"
+                className="h-8 w-8"
+              />
+              <span>Podsite</span>
             </Link>
           </div>
           <div className="flex items-center space-x-1 sm:space-x-4">
