@@ -1,5 +1,10 @@
 # OS files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
 # Editor files
@@ -8,10 +13,23 @@ Thumbs.db
 *.swp
 *.swo
 *~
+.cursor/
 
 # Temporary files
 *.log
 *.tmp
+
+# Environment files (IMPORTANT: Never commit these!)
+.env
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
 .env*.local
+
+# API Keys and Secrets
+*.key
+*.pem
+secrets.json
+config/secrets.yml
 
